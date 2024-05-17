@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Utils\AppendIcon.png" />
+    <None Remove="Utils\ConverterIcon.png" />
+    <None Remove="Utils\SplitIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Utils\AppendIcon.png" />
+    <Resource Include="Utils\ConverterIcon.png" />
+    <Resource Include="Utils\SplitIcon.png" />
+  </ItemGroup>
+
+</Project>
